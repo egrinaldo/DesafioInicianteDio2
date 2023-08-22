@@ -73,3 +73,13 @@ No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** d
 Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
 
 Bora pra cima!
+
+## Resolução
+![image](https://github.com/egrinaldo/DesafioInicianteDio2/assets/7659133/e1e281b7-a3e3-4a90-8f1b-29410fbb1e80)
+![image](https://github.com/egrinaldo/DesafioInicianteDio2/assets/7659133/9b6b255b-2bee-4a0b-b4ee-36bc954b872a)
+![image](https://github.com/egrinaldo/DesafioInicianteDio2/assets/7659133/97b7380a-153d-40ec-85c5-930358de5b0e)
+![image](https://github.com/egrinaldo/DesafioInicianteDio2/assets/7659133/1f375b8a-9426-4d65-ab53-b4e11161db54)
+
+
+
+
