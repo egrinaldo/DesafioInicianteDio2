@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1800px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #0d5c75;
+    padding: 10px 20px 0px;
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    background-image: url(Purple\ Sky\ Profile\ Header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px;
+   
+}
+.content {
+    background-color: #0d5c75;
+    min-height: 300px;
+    padding: 20px;
+    
+}
+.footer {
+    background-color: #0d5c75;
+    min-height: 160px;
+}
+#men{
+    height: 760px;
+    backdrop-filter: blur(4px); 
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 35px; box-shadow: 35px 35px 68px 0px rgba(25, 159, 177, 0.5), 
+    inset -6px -6px 16px 0px rgba(25, 159, 177, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+#desc {
+    /* From https://css.glass */
+    height: 300px;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.sob_header{
+    background-color: rgb(5, 108, 108);
+    background-image: url(Purple\ Sky\ Profile\ Header2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px;
+}
+.hor_header{
+    background-color: rgb(5, 108, 108);
+    background-image: url(Purple\ Sky\ Profile\ Header3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px;
+}
+#hour{
+    /* From https://css.glass */
+    height: 300px;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.cont_header{
+    background-color: rgb(5, 108, 108);
+    background-image: url(Purple\ Sky\ Profile\ Header4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px;
+}

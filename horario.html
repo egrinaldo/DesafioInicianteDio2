@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica +Vida</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        blockquote img{
+            display: inline-block;
+            margin: 2px;
+        }
+        table{
+            -webkit-box-shadow: 9px 7px 14px 4px rgba(155,168,171,0.85); 
+             box-shadow: 9px 7px 14px 4px rgba(155,168,171,0.85);
+             border: 1px "2";
+        }
+        table tr:nth-child(even){
+            background-color: rgb(92, 84, 84);
+        }
+        table tr:hover td{
+            background-color: red;
+        }
+        thead{
+            background-color: rgb(92, 84, 84);
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu" >
+            <!-- Aqui vai o seu menu -->
+            <ul id="men" style="color: #0d5c75;" >
+                <li><b><a href="template.html" target="_self"  style="color: #0d5c75;">Página Principal</a></b></li>
+                <br>
+                <li><b><a href="sobre.html" target="_self" style="color: #0d5c75;">Sobre a Clínica</a></b></li>
+                <br>
+                <li><b><a href="horario.html"  target="_self" style="color: #0d5c75;">Horário de Atendimento</a></b></li>
+                <br>
+                <li><b><a href="contato.html" target="_self"  style="color: #0d5c75;">Contato</a></b></li>
+        
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="hor_header">
+                <!-- Aqui vai o seu header -->
+            </div>
+            <!-- Aqui vai o seu conteúdo -->
+            <div class="content" style="color: cornsilk;"  align="center">
+                <div id="hour"  lign="center">
+                    <blockquote lign="center">Aqui você pode conferir nosso horário de atendimento, especialidades e seus respectivos preços dos serviços.</blockquote>
+                    <table id="tab_hor" style="color: aliceblue;" sumary="Horário de atendimento da Clínica e seus valores" width="600" cellspacing="2" cellpading="2" align="center">
+                        <caption><blockquote><b>Horário De Atendimento</b></caption>
+                        <thead>
+                            <tr>
+                                <th>Serviços</th>
+                                <th colspan="2">Segunda a Sexta</th>
+                                <th>Valor</th>
+                                <th>Sábados</th>
+                                <th>Valor</th>
+                                <th>Feriados</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody align="center">
+                            <tr>
+                                <td>Clínica Geral</td>
+                                <td colspan="2">08h - 19h</td>
+                                <td>R$200.OO</td>
+                                <td>08h - 14h</td>
+                                <td>R$300.00</td>
+                                <td>08h - 14h</td>
+                                <td>R$450.00</td>
+                            </tr>
+                            <tr>
+                                <td>Psicologia</td>
+                                <td colspan="2">08h - 19h	</td>
+                                <td>R$150.00</td>
+                                <td>08h - 14h</td>
+                                <td>R$250.00</td>
+                                <td>08h - 14h</td>
+                                <td>R$350.00</td>
+                            </tr>
+                            <tr>
+                                <td>Pediatria</td>
+                                <td colspan="2">08h - 19h	</td>
+                                <td>R$340.00</td>
+                                <td>08h - 14h</td>
+                                <td>R$400.00</td>
+                                <td>08h - 14h</td>
+                                <td>R$500.00</td>
+                            </tr>
+                            <tr>
+                                <td>Oftalmologia	</td>
+                                <td colspan="2">08h - 19h	</td>
+                                <td>R$300.00</td>
+                                <td>08h - 14h</td>
+                                <td>R$400.00</td>
+                                <td>08h - 14h</td>
+                                <td>R$500.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="footer" >
+                <!-- Aqui vai o seu rodapé -->
+                <blockquote>REDES SOCIAIS</blockquote>
+                <blockquote ><img src="sinal-do-twitter.png" ><img src="instagram.png"><img src="facebook.png"></blockquote>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
